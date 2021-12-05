@@ -1,0 +1,58 @@
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  max-width: 100vw;
+  width: 100vw;
+  height: 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "logo con1 con2 con3 app"
+    "copy copy con2 con3 app";
+  background-color: #141a1f;
+  padding: 3em 2em;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  color: #fff;
+  text-transform: capitalize;
+  justify-items: start;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  user-select: none;
+}
+.foot-links-con {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-self: start;
+}
+.logo {
+  grid-area: logo;
+}
+.foot-con-1 {
+  grid-area: con1;
+}
+.foot-con-2 {
+  grid-area: con2;
+}
+.foot-con-3 {
+  grid-area: con3;
+}
+.foot-app {
+  grid-area: app;
+  display: flex;
+  flex-direction: column;
+}
+.foot-app-links {
+  display: flex;
+}
+.foot-app-badges {
+  display: flex;
+  flex-direction: column;
+}
+.foot-copy {
+  grid-area: copy;
+}

@@ -1,0 +1,107 @@
+.hero-cards {
+  background: linear-gradient(180deg, #364a57 0.01%, #1c252c 101.79%);
+  padding: 2em 0;
+}
+/* HERO CSS */
+.hero-con {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.hero-con h2 {
+  font-size: 42px;
+}
+.hero-con p {
+  font-size: 24px;
+  width: 60%;
+  text-align: center;
+  color: rgb(195, 205, 255);
+}
+button {
+  padding: 16px 60px;
+  background: #426bff;
+  border-radius: 12px;
+  border: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  background: rgba(66, 107, 255, 0.7);
+}
+.hero-con img {
+  max-width: 987px !important;
+  min-width: 987px !important;
+  min-height: 800px !important;
+}
+
+/* CARDS CSS */
+.easy-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222d34;
+  box-shadow: 0 2px 16px rgb(0 0 0 / 32%);
+  border-radius: 64px;
+  padding: 15px;
+  width: 80%;
+  margin-left: 10em;
+  color: #fff;
+  gap: 5em;
+}
+.easy-cards-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: 390px;
+}
+.easy-cards-card img {
+  min-width: 200px !important;
+  min-height: 200px !important;
+}
+.easy-cards-card h3 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #6d7c88;
+}
+
+/* Dash CSS */
+.dash-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #1c252c;
+  padding: 5em 2em;
+}
+h3 {
+  color: #fff;
+  font-size: 32px;
+}
+.dash-con p {
+  font-size: 24px;
+  line-height: 1.5;
+  width: 90%;
+}
+/* DEMO CSS */
+.demo-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5em 2em;
+}

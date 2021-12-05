@@ -1,0 +1,404 @@
+.home-con {
+  background: #161d22;
+}
+/* Home Genrel css */
+.home-in-con {
+  padding: 10rem 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+/* HERO CSS */
+.home-hero-con {
+  position: relative;
+  bottom: 0;
+  margin-top: -10em;
+  background: linear-gradient(
+      0deg,
+      rgba(22, 29, 34, 1) 0%,
+      rgba(21, 36, 43, 0.3536765047816002) 21%,
+      rgba(0, 212, 255, 0) 100%
+    ),
+    url(https://cdn.game.tv/images/homepage/hero-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20rem 2em 5rem 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1em;
+}
+.home-hero-con h1,
+.home-hero-con h2 {
+  font-size: 52px !important;
+  line-height: 61px;
+  max-width: 630px;
+  margin: 0;
+  font-weight: 900;
+}
+.home-hero-con h2 {
+  max-width: 500px;
+}
+.home-hero-con h3 {
+  color: #ced7de;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.home-hero-con button {
+  text-transform: capitalize;
+  padding: 16px 23px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 150%;
+}
+/* EASY CSS */
+.home-in-con h2 {
+  font-size: 42px;
+  line-height: 49px;
+  text-align: center;
+  color: #ced7de;
+  margin: 0;
+}
+.home-in-con p {
+  margin-top: 12px;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #6d7c88;
+  margin-bottom: 1em;
+}
+.home-easy-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.home-easy-cards-card {
+  padding: 20px;
+  width: 280px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 24px rgb(0 0 0 / 10%);
+  border-radius: 12px;
+  background: linear-gradient(225deg, #212a31 16.66%, #1c252c 16.67%);
+  border: 1px solid #2c3942;
+  transition: 0.2s ease-in-out;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: center;
+  color: #ced7de;
+}
+.home-easy-cards-card:hover {
+  box-shadow: 0 10px 10px -10px rgb(0 0 0 / 50%);
+  transform: scale(1.05);
+}
+
+/* GLOBAL CSS */
+
+.home-global-con p {
+  width: 50%;
+}
+/* CREATORS CSS */
+.home-creators-con {
+  background: #1c242c;
+  height: 90%;
+  padding: 10em 2em 0 2em;
+}
+.home-creators-con h2 {
+  width: 70%;
+}
+.creators-bubbles {
+  height: 440px;
+  width: 100%;
+  margin: 40px 0 90px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  align-content: stretch;
+}
+.creators-bubble {
+  border-radius: 50%;
+  border: 1px solid #2c3942 !important;
+  box-shadow: 0 4px 24px rgb(0 0 0 / 10%) !important;
+  transition: 0.2s ease-in-out;
+}
+.creators-bubble:hover {
+  box-shadow: 0 10px 10px -10px rgb(0 0 0 / 50%) !important;
+  transform: translateY(-5px);
+}
+.creators-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  position: relative;
+  bottom: -5em;
+  height: 0px;
+}
+.creator-cards-card {
+  width: 380px;
+  background: linear-gradient(225deg, #212a31 16.66%, #1c252c 16.67%);
+  border: 1px solid #2c3942;
+  box-shadow: 0 4px 24px rgb(0 0 0 / 10%);
+  padding: 40px;
+  color: #ced7de;
+  position: relative;
+  height: 304px;
+  transition: 0.2s ease-in-out;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "des des"
+    "img name"
+    "img followers";
+  justify-items: center;
+  align-items: center;
+  border-radius: 12px;
+}
+.creator-cards-card:hover {
+  box-shadow: 0 10px 10px -10px rgb(0 0 0 / 50%);
+  transform: scale(1.05);
+}
+.creator-cards-card p {
+  grid-area: des;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+}
+.creator-cards-card span {
+  grid-area: img;
+  min-width: 60px !important;
+  min-height: 60px !important;
+}
+.creator-card-img {
+  min-width: 60px !important;
+  min-height: 60px !important;
+  box-shadow: -2px 2px #426bfe !important;
+  border-left: 3px solid #1c262b !important;
+  border-bottom: 2px solid #1c262b !important;
+  border-radius: 12px !important;
+}
+.creator-card-name {
+  grid-area: name;
+}
+.creator-card-followers {
+  grid-area: followers;
+}
+/* TOP CSS */
+.home-top-con {
+  padding: 20rem 10rem 5rem 10em;
+  align-items: flex-start;
+}
+.top-cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.top-cards-card {
+  border: 1px solid #2c3942;
+  width: 214.4px;
+  height: 287px;
+  margin-right: 32px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.top-cards-card:hover {
+  opacity: 1;
+  border: 1px solid #2c3942;
+  overflow: hidden;
+  box-shadow: 0 10px 10px -10px rgb(0 0 0 / 50%);
+  transform: scale(1.07);
+}
+.top-cards-card img {
+  z-index: 3;
+  transition: 0.2s ease-in-out;
+}
+.top-cards-card img:hover {
+  z-index: 1;
+}
+.top-cards-card p {
+  width: 214.4px;
+  height: 287px;
+  position: relative;
+  bottom: 302px;
+  font-size: 18px;
+  line-height: 19px;
+  color: #6d7c88;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 2;
+  background: linear-gradient(180deg, rgba(22, 29, 34, 0), #161d22 75.85%);
+  text-align: center;
+  padding: 12em 2em 0 2em;
+  transition: 0.2s ease-in-out;
+}
+.top-cards-card p:hover {
+  z-index: 3;
+}
+/* GET CSS */
+.home-get-con {
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5rem 10em;
+  background: url("https://cdn.game.tv/images/homepage/app-stores-bg.jpeg"),
+    #1c252c;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+.home-get-con p {
+  font-size: 36px !important;
+  max-width: 550px;
+  line-height: 49px;
+  color: #fff;
+  text-align: left;
+}
+.get-links-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "p p qr"
+    "apple play qr";
+  padding: 12px 12px 12px 21px;
+  background: #161d22;
+  border-radius: 12px;
+  align-items: center;
+  justify-items: center;
+}
+.get-links-con p {
+  grid-area: p;
+  font-weight: 700;
+  font-size: 18px !important;
+  line-height: 125%;
+  color: #ffc700;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.get-qr {
+  grid-area: qr;
+}
+.get-apple {
+  grid-area: apple;
+}
+.get-play {
+  grid-area: play;
+}
+/* NEWS CSS */
+.news-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  margin: 2em 0;
+}
+.news-cards-card {
+  box-shadow: 0 10px 10px -10px rgb(0 0 0 / 50%);
+  transform: scale(1.05);
+  cursor: pointer;
+  width: 380px;
+  height: auto;
+  background: linear-gradient(225deg, #212a31 16.66%, #1c252c 16.67%);
+  border: 1px solid #2c3942;
+  box-shadow: 0 4px 24px rgb(0 0 0 / 10%);
+  border-radius: 12px;
+  position: relative;
+  transition: 0.2s ease-in-out;
+}
+.news-cards-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 10px -10px rgb(0 0 0 / 50%);
+}
+.news-cards-card figure {
+  height: 160px;
+  margin: 0;
+  background: linear-gradient(1turn, #2c3942, rgba(44, 57, 66, 0) 45.67%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.news-card-details {
+  padding: 30px;
+}
+.news-cards-card h4 {
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffc700;
+  margin: 0;
+}
+.news-cards-card p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ced7de;
+  margin: 0;
+  text-overflow: ellipsis;
+  height: 105px;
+}
+/* POP CSS */
+.home-pop-con {
+  background: #1c252c;
+  padding: 5em 2em;
+  gap: 0.5em;
+}
+.pop-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+  margin-bottom: 3em;
+}
+.pop-card {
+  cursor: pointer;
+  user-select: none;
+  height: 80px;
+  background-color: #26313a;
+  padding: 10px;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+.pop-card:hover {
+  transform: translateY(-5px);
+}
+.pop-card img {
+  min-height: 60px !important;
+  min-width: 60px !important;
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.pop-card p {
+  color: #83939f;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+.home-in-con button {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.5em 2em;
+}

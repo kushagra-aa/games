@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("./dev.css");
+@import url("./home.css");
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+  background: linear-gradient(180deg, #364a57 0.01%, #161d22 101.79%);
 }
 
 a {
@@ -13,4 +14,10 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin-top: 6rem;
 }
